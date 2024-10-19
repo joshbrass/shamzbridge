@@ -1,0 +1,31 @@
+.slide_in,
+.slide_out {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 100;
+  background: #212121;
+}
+
+.slide_in {
+  transform-origin: bottom;
+}
+
+.slide_out {
+  transform-origin: top;
+}
+
+.company_logo_wrapper {
+}
+
+.company_logo_wrapper img {
+  width: auto;
+  height: 4.2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}

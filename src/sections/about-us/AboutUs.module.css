@@ -1,0 +1,74 @@
+.what_we_offer_section__inner {
+    display: flex;
+    column-gap: 6rem;
+    padding: 4rem 0;
+  }
+  
+  .section__left_column, 
+  .section__right_column {
+    width: 50%; 
+  }
+  
+  .hero_image_container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .hero_image_container img {
+    max-width: 100%; 
+    height: auto;
+  }
+  
+  ul.services_list_wrapper {
+    list-style: circle;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.2rem;
+    padding-left: 3rem;
+  }
+  
+  .waitlist_button_container {
+    margin-top: 4rem;
+  }
+  
+  .waitlist_button_wrapper button {
+    width: 24rem;
+  }
+  
+  /* MEDIA QUERIES */
+  @media (max-width: 990px) {
+    .what_we_offer_section__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        column-gap: 0;
+        row-gap: 4rem;
+        padding: 2rem 2rem; 
+    }
+    .hero_image_container {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .section__left_column, 
+    .section__right_column {
+      width: 100%;
+    }
+  
+    .section__right_column {
+      text-align: center;
+    }
+  
+    ul.services_list_wrapper {
+      margin-top: 3rem;
+      text-align: left;
+    }
+  
+    .waitlist_button_wrapper {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  

@@ -1,0 +1,24 @@
+.footer {
+    background-color: #1e293b; /* Slate color */
+    color: white;
+    padding: 20px 20px; /* Added padding for smaller screens */
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  p {
+    margin-bottom: 5px;
+    font-size: 1rem;
+  }
+  
+  /* Responsive styling */
+  @media screen and (max-width: 640px) {
+    p {
+      font-size: 0.9rem;
+    }
+  }
+  

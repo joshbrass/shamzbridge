@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+:root {
+  --main-maxwidth: 1260px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif !important;
+}
+
+html {
+  font-size: 62.5%;
+  background: var(--neutral-colours-white, #fff);
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Inter", sans-serif !important;
+  background: var(--neutral-colours-white, #f5f7fa);
+  color: #333;
+}
+
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+
+input,
+textarea,
+select,
+button {
+  font-family: "Inter", sans-serif;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background-color: inherit;
+}
+
+button:focus {
+  outline: none;
+}
+
+select {
+  /* For Firefox */
+  -webkit-appearance: none;
+  /* for Chrome */
+  -moz-appearance: none;
+  appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+}
+
+/* For IE10 */
+select::-ms-expand {
+  display: none;
+}
+
+
+
+a {
+  text-decoration: none;
+}
+
+/*  */
+.form-group {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Message handler wrapper */
+.app--actions-handler-wrapper {
+  top: 0px !important;
+  right: 30px !important;
+}
+
+/* Cursor */
+.cursor_wrapper {
+  height: 3.2rem;
+  width: 3.2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  pointer-events: none;
+  background-color: #000000;
+  border-radius: 50%;
+}
+
+/* Media Queries */
+@media (min-width: 1400px) {
+  :root {
+    --main-maxwidth: 1360px;
+  }
+}
+
+@media (min-width: 1500px) {
+  :root {
+    --main-maxwidth: 1460px;
+  }
+}
+
+@media (min-width: 1600px) {
+  :root {
+    --main-maxwidth: 1560px;
+  }
+}
+
+@media (max-width: 675px) {
+  .app--row-container {
+    padding: 0 16px;
+  }
+}

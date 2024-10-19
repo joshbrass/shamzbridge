@@ -1,0 +1,33 @@
+.top_nav_link_section {
+    display: flex;
+    column-gap: 2.4rem;
+  }
+  
+  .nav_link_wrapper {
+    position: relative;
+    margin: 0 1.25rem;
+    line-height: 1.75rem;
+  }
+  
+  .nav_link_wrapper a,
+  .mobile_nav_link_wrapper a {
+    display: flex;
+    align-items: center;
+    /* Text Styles */
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+    color: #000000;
+  }
+  
+  .active_link_wrapper a {
+    color: #3b82f6;
+  }
+  
+  /* Mobile Container */
+  .mobile_nav_link_wrapper {
+    min-width: 80px;
+    display: flex;
+    justify-content: center;
+  }
+  

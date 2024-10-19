@@ -1,0 +1,12 @@
+.slide_out_overlay_wrapper {
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  left: 0;
+  right: 0;
+  background-color: var(
+    --salesunbox-colours-1-shades-13-d-4-d-3,
+    rgb(19, 212, 211, 0.7)
+  );
+  z-index: 20;
+}
