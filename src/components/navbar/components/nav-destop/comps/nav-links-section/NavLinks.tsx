@@ -1,4 +1,4 @@
-import styles from "./NavLinks.module.css";
+import styles from "./Navlinks.module.css";
 import { INavLink } from "../../../../../../models/NavigationTypes";
 import { Link, useLocation } from "react-router-dom";
 
